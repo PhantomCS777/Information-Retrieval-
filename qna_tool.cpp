@@ -450,7 +450,7 @@ void QNA_tool::query(string question, string filename,int k){
     // int k;
     // cout<<"Enter least number of paragraphs to be considered: "<<endl;
     // cin>>k; 
-    string api_key="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";
+    string api_key="ENTER_YOUR_CHATGPT_API_KEY";
     pair<Node*,int> temp = get_top_k_para_modified(question,k);
     Node * root= temp.first;
     k= temp.second;
